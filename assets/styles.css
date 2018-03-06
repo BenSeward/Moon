@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  font-family: 'Lora', serif;
+  background-color: rgba(64,137,176, 0.6);
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1020px;
+  text-align: center;
+  align-self: center;
+  margin: auto;
+  color: #ffffff;
+}
+
+.container h1 {
+  font-size: 46px;
+  text-transform: uppercase;
+  font-family: 'Plaster', cursive;
+  transition: 0.4s all ease-in-out;
+}
+
+.container p {
+  font-size: 22px;
+}
+
+h1:hover {
+  transform: scale(1.5);
+}
+
+.container a {
+  color: #ffffff;
+}
+
+.container a:hover i {
+  transform: scale(1.2);
+}
+
+.container .get-in-touch i {
+  font-size: 40px;
+  margin: 0.5em 5px;
+  transition: 0.4s all ease-in-out;
+}

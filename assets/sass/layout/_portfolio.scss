@@ -1,0 +1,30 @@
+.portfolio-item {
+    .brand-logo {
+        max-width: 200px;
+        margin-bottom: 1rem;
+    }
+
+    .portfolio-showcase {
+        width: 100%;
+    }
+
+    .test {
+        display: block;
+        min-width: 0px;
+        min-height: 0px;
+    }
+
+    .content {
+        width: 100%;
+        overflow: auto;
+        box-sizing: border-box;
+
+        .portfolio-showcase {
+            &.mobile {
+                max-width: 500px;
+                display: block;
+                margin: auto;
+            }
+        }
+    }
+}

@@ -5485,4 +5485,8 @@ nav {
     display: block;
     margin: auto; }
 
+.btn-back {
+  margin-top: 20px;
+  float: right; }
+
 /*# sourceMappingURL=main.css.map */
